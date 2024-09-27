@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+    margin: 0; 
+}
+
+/* Header styling */
+h1 {
+    text-align: left;
+    margin: 20px; 
+}
+
+/* Container to align sections */
+.container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    margin-top: 20px;
+}
+
+/* Left section styling */
+.left-section {
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Right section styling */
+.right-section {
+    display: flex;
+    flex-direction: column; 
+}
+
+/* General styling for sections */
+.section {
+    width: 250px; 
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+    background-color: #800080;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Button styling */
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px; 
+}
+
+button:hover {
+    background-color: #ffd633;
+}
+
+/* Input field styling */
+input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
